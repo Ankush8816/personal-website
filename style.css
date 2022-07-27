@@ -1,0 +1,230 @@
+
+body{
+background-image: url("/Images/bg images/bg6.jpg")  ;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+/* navbar */
+@media (min-width: 992px) {  
+
+
+.navbar-brand{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Dancing Script', cursive; */
+  /* font-family: 'Great Vibes', cursive; */
+  /* font-family: 'Lobster', cursive; */
+
+
+
+  font-size: 30px;
+  margin: 16px 27px;
+  padding: 3px 10px;
+}
+
+
+
+
+#navbarNav{
+margin-left: 30%;
+}
+
+
+.nav-item{
+  padding: 0px 3px;
+  margin: 0px 3px;
+}
+
+.nav-item a{
+  color: white;
+  
+  font-family:'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+.logo-img img{
+  border-radius: 100%;
+}
+
+
+
+
+}
+
+/* for mobile navbar */
+.navbar-toggler-icon{
+  color: white;
+}
+
+/* Section-2 */
+
+.section-2{
+  color: aliceblue;
+  text-align: center;
+  margin: 45px 140px;
+}
+.my-pic{
+  border-radius: 100%;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.section-2 h3{
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+
+  
+}
+
+.section-2 h1{
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Great Vibes', cursive;
+  color: white;
+}
+
+.section-2 p{
+  font-size: 22px;
+  font-family:'Courier New', Courier, monospace;
+  /*  */
+  /* font-family: 'Dancing Script', cursive; */
+
+
+  /* font-weight: 15px; */
+}
+
+
+
+
+
+
+/* CAROUSAL-ITEMS */
+
+.carousel-inner {
+padding: 50px 100px;
+color: aliceblue;
+text-align: center;
+
+
+}
+
+
+
+
+.carousel-item img{
+  height: 150px;
+  width: 150px;
+  margin: 20px 200px;
+  border-radius: 100%;
+}
+
+.arrow-btn{
+  margin: 0px 70px;
+}
+
+.carousel-item h2{
+  font-family: 'Playfair Display', serif;
+}
+.carousel-item p{
+  /* width: 70%; */
+  padding: 0px 150px;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+}
+
+/* ==============card==================== */
+/* @media (min-width: 992px)  */
+  
+
+.card-group{
+  padding: 10px;
+  
+  /* margin: 60px 190px; */
+  
+  
+}
+.card{
+  
+  padding: 10px;
+  margin: 0px 60px 0px 60px ;
+}
+
+.card img{
+  margin: auto;
+  padding: 10px;
+  height: 150px;
+  width: 100px;
+  border-radius: 100%;
+
+}
+.card-body{
+  text-align: center;
+  background-color:darkgrey;
+}
+
+
+/* for mobile screen card group */
+
+
+
+
+
+
+/* icon sdction */
+
+ .container{
+  display: flex;
+  margin: auto;
+  margin-bottom: 20px;
+
+}
+.container img{
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.icons{
+margin: auto;
+}
+
+.linked-in{
+  border-radius: 100%;
+}
+
+/* =========last section========================== */
+
+
+.copy img{
+  border-radius: 100%;
+  height: 40px;
+  width: 40px;
+  margin-left: 40%;
+  /* margin: 3px 0px; */
+}
+ 
+
+ .copy{
+  display: flex;
+  background-color: black;
+  color: white;
+  
+ }
+
+ .copy h6{
+  padding: 8px 10px;
+ }
+
+
+
+ /* mediaqurie */
+ /* @media (min-width: 996px) { 
+  body{
+    color: aqua;
+  }
+ } */

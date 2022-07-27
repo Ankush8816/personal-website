@@ -1,0 +1,236 @@
+body{
+    background-image: url("/Images/bg images/ankush_bg3.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* ========================section 2=============================== */
+.section-2{
+    color: aliceblue;
+    text-align: center;
+    margin: 60px 130px;
+  }
+  /* .my-pic{
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+  } */
+  
+  .section-2 h3{
+    color:brown;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  
+    
+  }
+  
+  .section-2 h1{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    color:floralwhite;
+  }
+  
+  .section-2 p{
+    font-size: 22px;
+    font-family:'Courier New', Courier, monospace;
+    margin: 30px 0px;
+    
+  }
+  
+  
+
+  
+
+  /* card section */
+  
+  .Education{
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .card-group{
+    padding: 10px;
+    
+    margin: 60px 190px;
+    
+    
+  }
+  .card{
+    
+    padding: 10px;
+    margin: 0px 60px 0px 60px ;
+  }
+  
+  .card img{
+    margin: auto;
+    padding: 10px;
+    height: 150px;
+    width: 100px;
+    border-radius: 100%;
+  
+  }
+  .card-body{
+    text-align: center;
+    background-color:darkgrey;
+  }
+  
+  
+  
+  
+  /* CAROUSAL-ITEMS */
+  
+  .carousel-inner {
+  padding: 50px 100px;
+  color:aliceblue;
+  text-align: center;
+  
+  
+  }
+  
+  
+  
+  
+  .carousel-item img{
+    height: 200px;
+    width: 200px;
+    margin: 20px 200px;
+    border-radius: 100%;
+  }
+  
+  .arrow-btn{
+    margin: 0px 70px;
+  }
+  
+  .carousel-item h2{
+    font-family: 'Playfair Display', serif;
+  }
+  .carousel-item p{
+    /* width: 70%; */
+    padding: 0px 150px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+  }
+/* ============================Family deatils========================== */
+  .bigbox{
+    background-color: gray;
+    height: 350px;
+    text-align: center;
+    margin: auto;
+  }
+
+  .bigbox h1{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+  }
+
+  .content{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    background:black;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 45%;
+    margin: auto;
+    /* display: inline; */
+
+  }
+/* ===========================last section========================== */
+.last-section{
+  width: 33%;
+  margin: 3% 33%;
+  padding: 10px 10px;
+  border-radius: 20px;
+  background-color: gray;
+
+}
+
+
+
+
+@media   (max-width:900px){
+    
+  .section-2{
+      color: aliceblue;
+      text-align: center;
+      margin: 30px 30px;
+    }
+
+    .section-2 p{
+      font-size: 11px;
+    }
+
+    /*================== */
+    .carousel-item img{
+      height: 100px;
+      width: 100px;
+    border-radius: 100%;
+    margin: 0px;
+    padding: 10px;
+    }
+    .arrow-btn{
+      margin: 0px 25px;
+    }
+
+    .carousel-item h2{
+      font-family: 'Playfair Display', serif;
+    }
+    .carousel-item p{
+      /* width: 70%; */
+      padding: 0px 10px;
+      font-family: 'Playfair Display', serif;
+      font-size: 11px;
+    }
+
+    .carousel-inner {
+      padding: 10px 100px 50px 100px;
+      color:aliceblue;
+    }
+    /* =================== */
+    .card-group{
+      padding: 0px;
+      margin: 0px;
+    }
+    .card{
+      height: 32%;
+      width: 90%;
+      margin: 4px 19px;
+    }
+    /* ======================================= */
+    .bigbox{
+      background-color: gray;
+      height: 200px;
+      text-align: center;
+      margin: auto;
+    }
+    .content{
+      color:darkgray;
+      font-size: 15px;
+      margin: 0px 10px;
+      padding: 0px 10px;
+      font-family: 'Playfair Display', serif;
+      background:black;
+      border: 2px solid white;
+      border-radius: 20px;
+      width: 85%;
+      margin: auto;
+      /* display: inline; */
+  
+    }
+    /* =================== */
+    
+}
+
+
+
+
+
+
+
